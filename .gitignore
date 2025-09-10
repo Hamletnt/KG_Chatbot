@@ -1,0 +1,179 @@
+# Environment Variables (สำคัญ - ห้าม commit!)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+*.env
+
+# Virtual Environment
+venv/
+venv310/
+env/
+ENV/
+.venv/
+*.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Neo4j Database Files
+data/
+neo4j/logs/
+neo4j/data/
+*.db
+*.log
+
+# Uploaded Files
+uploads/
+*.pdf
+*.docx
+*.doc
+*.txt
+!dummytext.txt  # ยกเว้นไฟล์ตัวอย่าง
+
+# IDE และ Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker
+.dockerignore
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Temporary folders
+tmp/
+temp/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Configuration files with sensitive data
+config.json
+secrets.json
+credentials.json
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+*.csr
+
+# API Keys และ Tokens
+api_keys.txt
+tokens.txt
+secrets.txt
+
+# Backup files
+*.backup
+*.bk
+*.old
+
+# Local development
+.local
+local_settings.py
