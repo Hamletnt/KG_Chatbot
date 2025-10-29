@@ -216,10 +216,6 @@ docker-compose logs chatbot-web
 docker-compose logs neo4j
 ```
 
-## License
-
-This project is licensed under the MIT License.
-
 ## Contributing
 
 1. Fork the repository
